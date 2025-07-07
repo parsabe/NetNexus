@@ -4,6 +4,7 @@ if(isset($_SESSION['anon_id'])){
     header("location: https://nigma.hounaar.com/portal/");
 }
 
+    
 ?>
 <!DOCTYPE html>
 <html lang="en">
