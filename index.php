@@ -6,10 +6,6 @@ if(isset($_SESSION['anon_id'])){
 }
 
 
-
-
-    
-
 ?>
 <?php include_once "/opt/lampp/htdocs/src/php/header.php"; ?>
     <title>Sandika</title>
