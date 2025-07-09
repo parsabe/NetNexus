@@ -1,0 +1,316 @@
+/* Custom styles for dark mode */
+@font-face {
+    font-family: vazir;
+    src: url(/src/fonts/Vazir-Regular.woff);
+}
+html body {
+    background-color: #fff; /* Set background color to white */
+    color: #000;
+    transition: background-color 0.4s, color 0.4s;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    direction: rtl;
+    font-family: vazir;
+
+}
+
+
+html body .navbar{
+    background-color: white;
+    box-shadow: gray 10px 10px 10px;
+    padding-bottom:10px ;
+}
+html body .navbar .offcanvas{
+  float: right;
+  text-align: right;
+}
+/* Add st
+yles for dark mode */
+body.dark-mode {
+    background-color: black;
+    color: #fff;
+  }
+
+
+  
+  .modal .modal-body{
+    color: white;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(15,9,121,1) 100%); 
+}
+
+  /* Change background color when toggled */
+ 
+
+  #sunIcon{
+    display: none;
+    font-size: 20px;
+    color: gray;
+
+  
+    cursor:pointer;
+  }
+  #moonIcon{
+    font-size: 20px;
+    color: gray;
+
+ 
+    cursor:pointer;
+  }
+  .bi-list{
+    font-size: 30px;
+    
+  }
+  .bi-search{
+    font-size: 20px;
+    color: gray;
+
+    cursor:pointer;
+  }
+  /* Add a custom class for the close button to change color in dark mode */
+.offcanvas-dark .btn-close.btn-close-white {
+    color: #fff; /* Set the close button color to white in dark mode */
+  }
+  .offcanvas-dark .btn-close.btn-close-black {
+    color: black; /* Set the close button color to white in dark mode */
+  }
+  
+  
+
+  .offcanvas-dark {
+    background-color: black !important; /* Set off-canvas sidebar background to dark color */
+    color: #fff; /* Set text color in off-canvas sidebar */
+  }
+
+  .offcanvas-dark .navbar-nav .nav-link {
+    color: #fff; /* Set text color in off-canvas sidebar links */
+  }
+
+
+
+html body .container .navbar a{
+    transition: all 0.5s ease-out;
+}
+html body .container .navbar a:hover{
+    
+    color: blue;
+}
+
+
+.container-fluid .navbar a{
+    transition: all 0.5s ease-out;
+   
+}
+.container-fluid .navbar a:hover{
+    transition: all 0.5s ease-out;
+    color: blue;
+}
+
+
+
+.footer {
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 69%);
+    color: white;
+  }
+
+  .footer .row .col-md-3 a{
+    margin-left:5px;
+    font-size: 20px;
+    color: white;
+
+}
+
+
+  /* Styles for the preloader */  
+.container .mine{
+    animation: moveImage 2s ease-in-out infinite alternate-reverse both;; /* Adjust the duration (5s) as needed */
+}
+
+@-webkit-keyframes moveImage {
+    0% {
+        transform: translateX(10px);
+    }
+    100% {
+        transform: translateX(-10px);
+    }
+}
+
+@keyframes moveImage {
+    0% {
+        transform: translateX(10px);
+    }
+    100% {
+        transform: translateX(-10px);
+    }
+}
+
+html body .container .publications .essay-date{
+    font-size: 15px;
+    color: gray;
+}
+html body .container .publications .essay-title{
+
+    font-size: 25px;
+    color: blue;
+}
+
+
+
+.header.articles{
+    background: url('/src/pics/abstract1.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    height: 600px;
+    text-align: center;
+    position: relative;
+    color: white;
+}
+.header.articles::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)); /* Adjust alpha for overlay */
+    z-index: 1; /* Ensure it's above the background image */
+    mix-blend-mode: multiply;
+}
+
+
+.text-content {
+    padding: 15px 15px 15px 15px;
+    position: relative;
+    z-index: 2; /* Place the text content above the overlay */
+    /* You can adjust other styles for text content here */
+}
+
+.header.info{
+    background: url('/src/pics/abstract2.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    height: 400px;
+    text-align: center;
+    position: relative;
+    color: white;
+}
+.header.info::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)); /* Adjust alpha for overlay */
+    z-index: 1; /* Ensure it's above the background image */
+    mix-blend-mode: multiply;
+}
+
+
+
+
+
+
+
+section a{
+    text-decoration: none;
+    color: #0037bb;
+    text-align: center;
+    
+}
+section a:hover{
+    
+    text-decoration:underline;
+}
+
+section.latest-article-laptop{
+    display: block;
+}
+
+section.latest-article-mobile{
+    display: none;
+}
+
+section.mobile{
+    display: none;
+}
+section.laptop{
+    display: block;
+}
+
+
+hr{
+    display: none;
+}
+.footer-content{
+    margin-top: 60px;
+    height: auto;
+    padding-bottom:20px ;
+}
+.footer-content .container .row .col-md-3{
+    margin-top: 20px;
+}
+.footer-content .container .row .col-md-9{
+    margin-top: 20px;
+}
+
+.footer-content .container .navi{
+    border-top: white solid 2px;
+    border-bottom: white solid 2px;
+    padding-top: 20px;
+    padding-bottom: 25px;
+    padding-right: 25px;
+}
+
+
+.footer-content .container .navi .linkies a{ 
+    color: skyblue;
+}
+.footer-content .container .subscribe { 
+   padding-left: 20px;
+}
+.footer-content .container .subscribe input{ 
+    background: none;
+    border: none;
+    border-bottom: white 2px solid;
+    color: white;
+}
+
+
+
+@media (max-width: 767px) {
+ 
+    .header.articles{
+        height: 1000px;
+    }
+    .header.info{
+        height: 800px;
+    }
+ 
+}
+  
+  @media (max-width: 1023px) {
+    .header.articles{
+        height: 1000px;
+    }
+    .header.info{
+        height: 800px;
+    }
+ 
+
+}
+
+.add-to-cart-btn {
+    width: 150px;
+    height: 50px;
+    font-size: 18px;
+    border-radius: 25px;
+    transition: all 0.3s ease;
+  }
+
+  .quantity {
+    display: inline-block;
+    margin: 0 10px;
+  }
+  
+
