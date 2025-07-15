@@ -6,6 +6,7 @@ if(isset($_SESSION['anon_id'])){
 
     
 ?>
+    
 <!DOCTYPE html>
 <html lang="en">
 <head>
