@@ -15,7 +15,4 @@ if(!isset($_SESSION['anon_id'])){
 
 }
 
-
-
-
 ?>
