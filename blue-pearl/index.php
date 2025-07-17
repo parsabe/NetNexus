@@ -70,9 +70,6 @@ if(isset($_SESSION['anon_id'])){
 
 <script type="text/javascript" src="/blue-pearl/src/js/login.js"></script>
 
-
-
-
     
 </body>
 </html>
