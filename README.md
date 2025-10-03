@@ -4,6 +4,7 @@
 A collection of innovative web projects including a dynamic website, an engaging online riddle game, a social media platform, and a chat portal. Explore creative solutions and interactive experiences
 
 ## Projects
+
 <ul>
   <li><a href="https://github.com/parsabe/NetNexus/tree/master/blue-pearl">1. Blue Pearl Chat Portal</a></li>
   <li><a href="https://github.com/parsabe/NetNexus/tree/master/nigma">2. Nigma Online Riddle Game</a></li>
