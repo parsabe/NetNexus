@@ -14,6 +14,7 @@ A collection of innovative web projects including a dynamic website, an engaging
    
    </ul>
 
+
 ## Contributing
 
 We welcome contributions!
