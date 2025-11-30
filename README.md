@@ -13,7 +13,6 @@ A collection of innovative web projects including a dynamic website, an engaging
     <li><a href="https://github.com/hounaar/NetNexus/tree/master/PHPortal">5. PHPortal</a></li>
    
    </ul>
-
 ## Contributing
 
 
